@@ -63,7 +63,7 @@ li figure > img{
 
 .main__container--div1--div {
     width: 48.2rem;
-    height: 4.4rem;
+    height: 4.4vh;
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -82,14 +82,14 @@ li figure > img{
 
 .main__container--div1--div div:first-child {
     width: 1.8rem;
-    height: 1.8rem;
+    height: 1.8vh;
 }
 
 .main__container--div1--div input {
     width: 37.8rem;
     outline: none;
     border: none;
-    height: 3.4rem;
+    height: 3.4vh;
     font-size: 1.6rem;
 }
 
@@ -97,7 +97,34 @@ li figure > img{
     margin-top: 14vh;
 }
 
+.main__container--div2 {
+    margin-bottom: 2rem;
+}
+
+.main__container--div2 button {
+    margin-left: .5rem;
+    margin-right: .5rem;
+    width: 16rem;
+    height: 3.5vh;
+    border: none;
+    border-radius: 3px;
+    background-color: #f8f9fa;
+    color: #3c4043;
+    font-size: 1.4rem;
+}
+
+.main__container--div3 span {
+    font-size: 1.3rem;
+    margin-left: .2rem;
+    margin-right: .2rem;
+}
+
+.main__container--div3 span:first-child {
+    color: red;
+}
+
 .footer__container--section2 {
     display: flex;
     justify-content: space-between;
 }
+
