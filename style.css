@@ -9,6 +9,13 @@ html {
     font-family: Arial, Helvetica, sans-serif;
 }
 
+body {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
 .header__container {
     display: flex;
     justify-content: flex-end;
@@ -32,7 +39,7 @@ nav {
     justify-content: space-between;
 }
 
-.header__container--nav--ul li > a {
+.header__container--nav--ul > li > a {
     color: black;
 }
 
@@ -63,7 +70,7 @@ li figure > img{
 
 .main__container--div1--div {
     width: 48.2rem;
-    height: 4.4vh;
+    height: 4.8vh;
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -93,10 +100,6 @@ li figure > img{
     font-size: 1.6rem;
 }
 
-.main__container--figure {
-    margin-top: 14vh;
-}
-
 .main__container--div2 {
     margin-bottom: 2rem;
 }
@@ -123,8 +126,45 @@ li figure > img{
     color: red;
 }
 
+.footer__container {
+    border-top: .1rem solid;
+    border-color: rgb(218, 220, 224);
+    background-color: #f2f2f2;
+}
+
+.footer__container--section1 {
+    padding-top: 1.2rem;
+    padding-bottom: 1.2rem;
+    border-bottom: .1rem solid;
+    border-color: rgb(218, 220, 224);
+    background-color: #f2f2f2;
+}
+
+.footer__container--section1 span {
+    color: #70757a;
+    font-size: 1.5rem;
+    margin-left: 3rem;
+}
+
 .footer__container--section2 {
     display: flex;
     justify-content: space-between;
+    flex-wrap: wrap;
+    padding-top: 1.2rem;
+    padding-bottom: 1.2rem;
 }
 
+.footer__container--section2 > ul > li > a {
+    color: #70757a;
+    font-size: 1.4rem;
+    margin-left: 1.5rem;
+    margin-right: 1.5rem;
+}
+
+.footer__container--section2--ul1 li:first-child {
+    margin-left: 2rem;
+}
+
+.footer__container--section2--ul2 li:last-child {
+    margin-right: 2rem;
+}
