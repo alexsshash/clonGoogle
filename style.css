@@ -114,6 +114,7 @@ li figure > img{
     background-color: #f8f9fa;
     color: #3c4043;
     font-size: 1.4rem;
+    outline: none;
 }
 
 .main__container--div3 span {
@@ -168,3 +169,22 @@ li figure > img{
 .footer__container--section2--ul2 li:last-child {
     margin-right: 2rem;
 }
+
+.header__container--nav--ul li a:hover {
+    text-decoration: underline;
+    color: #555555;
+}
+
+.main__container--div1--div:hover {
+    box-shadow: 0 .1rem .6rem 0 #20212447;
+    border-color: #dfe1e500;
+}
+
+.main__container--div2 button:hover {
+    box-shadow: 0 .1rem .1rem 0 #20212447;
+    border: 1px solid #dadce0;
+}
+
+ .footer__container--section2--ul1 li a:hover, .footer__container--section2--ul2 li a:hover {
+    text-decoration: underline;
+ }
