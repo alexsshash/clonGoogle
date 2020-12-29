@@ -69,8 +69,9 @@ li figure > img{
 }
 
 .main__container--div1--div {
-    width: 48.2rem;
+    width: 60rem;
     height: 4.8vh;
+    min-width: 33.4rem;
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -80,6 +81,13 @@ li figure > img{
     padding-right: 1vw;
     margin-top: 3vh;
     margin-bottom: 3vh;
+    margin-left: 2.3rem;
+    margin-right: 2.3rem;
+}
+
+.main__container--div1--div figure, .main__container--div1--div div:first-child, .main__container--div1--div div:last-child {
+    width: 2.3rem;
+    height: 2.3rem;
 }
 
 .main__container--div1--div img {
@@ -87,13 +95,12 @@ li figure > img{
     height: 100%;
 }
 
-.main__container--div1--div div:first-child {
-    width: 1.8rem;
-    height: 1.8vh;
+.main__container--div1--div div:nth-child(2) {
+    width: 80%;
 }
 
 .main__container--div1--div input {
-    width: 37.8rem;
+    width: 100%;
     outline: none;
     border: none;
     height: 3.4vh;
@@ -134,25 +141,27 @@ li figure > img{
 }
 
 .footer__container--section1 {
-    padding-top: 1.2rem;
-    padding-bottom: 1.2rem;
+    padding-left: 3rem;
+    padding-right: 3rem;
     border-bottom: .1rem solid;
     border-color: rgb(218, 220, 224);
     background-color: #f2f2f2;
 }
 
 .footer__container--section1 span {
+    display: inline-block;
     color: #70757a;
     font-size: 1.5rem;
-    margin-left: 3rem;
+    margin-top: 1.2rem;
+    margin-bottom: 1.2rem;
 }
 
 .footer__container--section2 {
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
-    padding-top: 1.2rem;
-    padding-bottom: 1.2rem;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
 }
 
 .footer__container--section2 > ul > li > a {
@@ -162,12 +171,14 @@ li figure > img{
     margin-right: 1.5rem;
 }
 
-.footer__container--section2--ul1 li:first-child {
-    margin-left: 2rem;
+.footer__container--section2--ul1, .footer__container--section2--ul2 {
+    display: flex;
+    flex-wrap: wrap;
 }
 
-.footer__container--section2--ul2 li:last-child {
-    margin-right: 2rem;
+.footer__container--section2--ul1, .footer__container--section2--ul2 {
+    margin-top: 1.2rem;
+    margin-bottom: 1.2rem;
 }
 
 .header__container--nav--ul li a:hover {
