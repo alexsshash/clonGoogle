@@ -188,3 +188,7 @@ li figure > img{
  .footer__container--section2--ul1 li a:hover, .footer__container--section2--ul2 li a:hover {
     text-decoration: underline;
  }
+
+ .main__container--div2 button:focus {
+     border: .1rem solid #4d90fe;
+ }
